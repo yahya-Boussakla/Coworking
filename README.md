@@ -11,7 +11,7 @@ In today's dynamic professional landscape, coworking spaces offer flexible solut
 - **Details:** Each card displays the space’s name, image, location, a brief description, and either a “Book Now” button or a “Fully Booked” indicator if reservations are closed.  
 - **Search and Filters:**  
   - A search bar to filter spaces by name or city.  
-  - Two filters to refine the list: one for availability between two dates, and another for space type (e.g., open space, meeting room, private office).
+  - Two filters to refine the list: one for availability between two dates and another for space type (e.g., open space, meeting room, private office).
 
 *Space Details Page:*  
 - **Information:** On clicking “Book Now” or “Fully Booked,” users are directed to a page that provides detailed information: name, a larger image, comprehensive description, amenities, pricing, and location.  
@@ -33,6 +33,12 @@ In today's dynamic professional landscape, coworking spaces offer flexible solut
 - **Account Management:**  
   - Users can view and update their personal details (name, email, phone number, etc.).  
   - They can access their booking history in a table format displaying the reservation reference, booking date, amount paid, and options to view the invoice and booking details.
+
+**Technologies:**  
+- **Laravel:** Backend framework to manage business logic and server-side operations.  
+- **VueJS:** Frontend framework to create a reactive and dynamic user interface.  
+- **Repository Pattern + Service Layer:** For better separation of concerns, maintainability, and testability in code organization.  
+- **Tailwind CSS:** For designing a clean, responsive, and modern user interface quickly and efficiently.
 
 **Educational Modalities:**  
 - Individual work  
